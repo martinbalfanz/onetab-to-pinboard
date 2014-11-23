@@ -11,6 +11,10 @@
               {:query-params {:auth_token token
                               :url url
                               :description title
+                              :toread "yes"
+                              :shared "no"
+                              :replace "no"
+                              :tags "onetab"
                               :format "json"}
                :as :json
                :throw-exceptions false}))
